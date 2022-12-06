@@ -1,0 +1,6 @@
+.navigation__container{
+  display: flex;
+  max-height: 57px;
+  min-height: 57px;
+  height: 100%;
+}

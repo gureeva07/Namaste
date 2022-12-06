@@ -1,0 +1,7 @@
+.button{
+  border-radius: 24px;
+  background: var(--color-button);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,42 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Namaste</title>
 </head>
+
 <body class="page">
+  <div class="wrapper">
   <header class="header">
-    <nav>
-       <ul>
-         <li><a href="#">О нас</a></li>
-         <li><a href="#">Группы</a></li>
-         <li><a href="#">Тренеры</a></li>
-         <li><a href="#">Контакты</a></li>
-    </ul>
-  </nav>
-    <h1 class="header__title">Раскрывайте новые возможности своего тела</h1>
+      <nav class="navigation">
+        <div class="navigation__container">
+          <a class="link" href="#">
+            <img class="logo" src="./images/header/logo.png" alt="Логотип курсов по йоге Namaste">
+          </a>
+          <ul class="lists header__lists">
+            <li class="list header__list">
+              <a class="link header__link" href="#">О нас</a>
+            </li>
+            <li class="list header__list">
+              <a class="link header__link" href="#">Группы</a>
+            </li>
+            <li class="list header__list">
+              <a class="link header__link" href="#">Тренеры</a>
+            </li>
+            <li class="list header__list">
+              <a class="link header__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <a class="button header__button" href="#"">Пробное занятие</a>
+      </nav>
+      <div class="header__container">
+        <h1 class="header__title">Раскрывайте новые возможности своего тела</h1>
+        <a class="button header__button header__button-container" href="#">Записаться</a>
+      </div>
   </header>
-  <main class="main"></main>
-  <footer class="footer"></footer>
-  <script src="./script/index.js"></script>
+  <main>
+
+  </main>
+  <footer></footer>
+  </div>
 </body>
+
 </html>

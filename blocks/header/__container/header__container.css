@@ -1,0 +1,26 @@
+.header__container{
+  max-width: 1196px;
+  height: 731px;
+  background:url('../../../images/header/header-bg.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 1080px){
+  .header__container{
+    height: 532px;
+  }
+}
+
+@media screen and (max-width: 880px){
+  .header__container{
+    height: 406px;
+  }
+}
+
+@media screen and (max-width: 540px){
+  .header__container{
+    height: 321px;
+  }
+}
