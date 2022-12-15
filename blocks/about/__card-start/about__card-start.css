@@ -1,0 +1,5 @@
+.about__card-start{
+  max-width: 500px;
+  display: grid;
+  justify-content: center;
+}

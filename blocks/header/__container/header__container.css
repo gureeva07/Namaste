@@ -1,8 +1,10 @@
 .header__container{
+  margin: 44px 0 0 0;
+  padding: 142px 0 0 0;
   max-width: 1196px;
   height: 731px;
   background:url('../../../images/header/header-bg.png') no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   text-align: center;
 }

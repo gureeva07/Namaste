@@ -1,0 +1,7 @@
+.header__button-navigation {
+  margin: 0;
+}
+
+.header__button-navigation::before {
+  padding: 0;
+}

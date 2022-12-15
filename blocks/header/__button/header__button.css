@@ -1,4 +1,7 @@
 .header__button{
+  display: flex;
+  margin: 35px auto 0;
   width: 162px;
   height: 38px;
 }
+

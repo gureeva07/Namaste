@@ -1,4 +1,5 @@
 :root{
   --color-black: #000000;
   --color-button: linear-gradient(126.26deg, #4326F7 -108.87%, rgba(172, 16, 245, 0) 109.3%);
+  --color-button-border: linear-gradient(126.26deg, #4000f5ed -108.87%, #FF14F6 109.3%);
 }

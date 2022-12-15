@@ -11,38 +11,107 @@
 
 <body class="page">
   <div class="wrapper">
-  <header class="header">
-      <nav class="navigation">
-        <div class="navigation__container">
-          <a class="link" href="#">
-            <img class="logo" src="./images/header/logo.png" alt="Логотип курсов по йоге Namaste">
-          </a>
-          <ul class="lists header__lists">
-            <li class="list header__list">
-              <a class="link header__link" href="#">О нас</a>
-            </li>
-            <li class="list header__list">
-              <a class="link header__link" href="#">Группы</a>
-            </li>
-            <li class="list header__list">
-              <a class="link header__link" href="#">Тренеры</a>
-            </li>
-            <li class="list header__list">
-              <a class="link header__link" href="#">Контакты</a>
-            </li>
-          </ul>
+    <header class="header">
+        <nav class="navigation">
+          <div class="navigation__container">
+            <a class="link" href="#">
+              <img class="logo" src="./images/header/logo.png" alt="Логотип курсов по йоге Namaste">
+            </a>
+            <ul class="lists header__lists">
+              <li class="list header__list">
+                <a class="link header__link" href="#">О нас</a>
+              </li>
+              <li class="list header__list">
+                <a class="link header__link" href="#">Группы</a>
+              </li>
+              <li class="list header__list">
+                <a class="link header__link" href="#">Тренеры</a>
+              </li>
+              <li class="list header__list">
+                <a class="link header__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <a class="button header__button header__button-navigation" href="#"">Пробное занятие</a>
+        </nav>
+        <div class="header__container">
+          <h1 class="header__title">Раскрывайте новые возможности своего тела</h1>
+          <a class="button header__button" href="#">Записаться</a>
         </div>
-        <a class="button header__button" href="#"">Пробное занятие</a>
-      </nav>
-      <div class="header__container">
-        <h1 class="header__title">Раскрывайте новые возможности своего тела</h1>
-        <a class="button header__button header__button-container" href="#">Записаться</a>
-      </div>
-  </header>
-  <main>
-
-  </main>
-  <footer></footer>
+    </header>
+    <main class="main">
+      <section class="groups">
+        <h2 class="groups__title">Наши группы</h2>
+        <div class="cards">
+          <article class="card">
+            <img class="card__image" src="./images/groups/1.png" alt="Первое изображение">
+            <h3 class="card__title">Для начинающих</h3>
+            <p class="card__text">Никогда не занимались йогой? Не беда, мы вас всему научим: как правильно исполнять движения, как дышать, как достичь гармонии и спокойствия</p>
+            <p class="card__price">1000 рублей</p>
+            <a class="button card__button" href="#">Записаться</a>
+          </article>
+          <article class="card">
+            <img class="card__image" src="./images/groups/2.png" alt="Второе изображение">
+            <h3 class="card__title">Для будующих мам</h3>
+            <p class="card__text">Беременность - не повод бросать занятия. Напротив, йога поможет вам подготовить тело и дух к будущим родам</p>
+            <p class="card__price">1200 рублей</p>
+            <a class="button card__button" href="#">Записаться</a>
+          </article>
+          <article class="card">
+            <img class="card__image" src="./images/groups/3.png" alt="Третье изображение">
+            <h3 class="card__title">Для детей</h3>
+            <p class="card__text">Наши самые маленькие ученики всегда остаются довольны своим времяпрепровождением</p>
+            <p class="card__price">800 рублей</p>
+            <a class="button card__button" href="#">Записаться</a>
+          </article>
+        </div>
+      </section>
+      <section class="about">
+        <h2 class="about__title">О нас</h2>
+        <div class="cards">
+          <article class="about__card-start">
+            <p class="about__text">Центр-йога «Намасте» создала для вас небольшой уголок безмятежности. Здесь вы откроете духовный путь к своему «я», научитесь противостоять стрессам, гармонировать с внешней средой, а также будете поддерживать свое тело в отменной форме.
+              Наши высококвалифицированные инструктора вам в этом помогут. Уютная атмосфера, просторный зал — приятное дополнение.</p>
+            <img class="about__image" src="./images/about/1.png" alt="Первое изображение">
+          </article>
+          <article class="about__card-end">
+            <p class="about__text">В современном мире, где владычествуют спешка и переживания, так хочется хотя бы не на долго забыться. Уйти от этой рутины туда, где спокойно и просто, где правит гармония и тишина.</p>
+            <img class="about__image" src="./images/about/2.png" alt="Второе изображение">
+          </article>
+        </div>
+      </section>
+      <section class="coaches">
+        <h2 class="coaches__title">Наши тренеры</h2>
+        <div class="cards">
+          <article class="card">
+            <img class="card__image" src="./images/coaches/1.png" alt="Первое изображение">
+            <h3 class="card__title">Полина Гаранина</h3>
+            <p class="card__text">Практики с Полиной помогают расправить и «обжить» свое тело, растворить скопившееся напряжение и скованность, укрепить связь тела-сознания.</p>
+            <a class="button card__button" href="">Записаться</a>
+          </article>
+          <article class="card">
+            <img class="card__image" src="./images/coaches/2.png" alt="Второе изображение">
+            <h3 class="card__title">Елена Романова</h3>
+            <p class="card__text">Йога для Елены - это знакомство с собой. На своих классах она помогает ученикам замедлиться, осознать себя, своё тело и разгрузить разум, чтобы достичь гармонии, внутренней тишины и наполниться знанием.</p>
+            <a class="button card__button" href="">Записаться</a>
+          </article>
+          <article class="card">
+            <img class="card__image" src="./images/coaches/3.png" alt="Третье изображение">
+            <h3 class="card__title">Юлия Авдеева</h3>
+            <p class="card__text">На занятиях  с Юлией вы научитесь основам концентрации и медитации, на себе испытаете эффективность дыхательных техник, начнёте лучше понимать ощущения своего тела.</p>
+            <a class="button card__button" href="">Записаться</a>
+          </article>
+        </div>
+      </section>
+      <section class="description">
+        <p class="description__text">NAMASTE – ЭТО ГАРМОНИЧНОЕ ПРОСТРАНСТВО ДЛЯ РАЗВИТИЯ ДУШИ И ТЕЛА</p>
+        <img class="description__image" src="./images/description/1.png" alt="Первое изображение">
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">Copyright © 2022 All rights reserved.</p>
+      <a class="link footer__mail"href="mailto:gureeva017@gmail.com">gureeva017@gmail.com</a>
+    </footer>
   </div>
 </body>
 
